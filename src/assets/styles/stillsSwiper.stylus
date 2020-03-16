@@ -1,0 +1,14 @@
+.stills-Swiper
+  z-index 99
+  position fixed
+  top 0
+  width 100%
+  height 100% 
+  background-color black
+  color white
+  img 
+    position absolute
+    top 50%
+    transform translateY(-50%)
+    width 100%
+  

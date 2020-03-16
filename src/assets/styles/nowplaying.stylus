@@ -1,0 +1,11 @@
+// 购票按钮
+button
+	position absolute
+	right .75rem
+	top 50%
+	transform scaleY(-50%)
+	width 2.7rem
+	line-height 1.2rem
+	color red
+	border .02rem red solid 
+	border-radius .1rem

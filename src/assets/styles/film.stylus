@@ -1,0 +1,57 @@
+.border-buttom 
+  border-bottom  .05rem	#E8E8E8 solid
+
+.display-none
+  display  none
+
+  /* nowplaying、comingsoon页面 */
+.flim-li
+  padding .75rem
+  padding-bottom 1rem
+  overflow hidden
+  position relative
+  p  
+    line-height 1rem
+
+  /* 电影简介左侧的图片的盒子 */
+.poster
+  position absolute
+  left .8rem
+  width 3.5rem
+  overflow hidden
+// 左侧的图片
+.poster>img
+  width 100%
+  border-radius .2rem
+  
+ /* 电影名字 */
+.movie
+  margin-top .6rem
+  padding-left 4rem
+  font-size .8rem 
+        
+  /* 电影类型 */
+.filmType
+  padding .04rem .08rem
+  margin-left .2rem
+  vertical-align .1rem
+  border-radius .1rem
+  font-size .4rem
+  color white
+  background-color #E0E0E0
+  
+  /* 电影评分 */
+.grade
+  color red
+  
+/* 电影介绍 */
+.content
+  padding-left:4rem
+  color #787878
+  font-size .65rem
+
+ 
+/* 主演  */
+.actors
+  width 10rem
+

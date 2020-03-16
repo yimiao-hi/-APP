@@ -1,0 +1,20 @@
+// 所有剧照页面
+.allPhotos-page
+  position fixed
+  top 0
+  height 100%
+  line-height 1.5rem
+  z-index 99
+  background-color white
+  font-size .7rem
+  .allPhotos-page>i  
+    top .2rem
+.stills-photos-box
+  padding-bottom 2rem
+  display flex
+  justify-content space-between
+  // align-content center
+  flex-wrap wrap
+  img 
+    width 50%
+    height 5rem

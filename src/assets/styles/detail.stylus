@@ -1,0 +1,119 @@
+.scroll-prohibit{
+	overflow-y hidden
+  overflow-x hidden
+}
+	    /* 返回键 */
+	.detail-tilte
+		position fixed
+		top 0
+		font-size .8rem
+		width 100%
+		height $tilteHeight
+		text-align center
+		z-index 99
+	.show-tilte
+		background-color white
+		
+
+	// 图片外部的盒子
+	.posterbox
+		height 10rem
+		overflow hidden
+		img
+			width 100%
+
+.introduction,.actors-box,.photos
+	position relative
+	overflow hidden
+	background-color white
+	padding 0 .7rem
+	font-size .65rem
+	margin-bottom .7rem
+
+// 电影信息
+	.introduction
+		margin-bottom 0
+	.introduction p
+		padding-top .1rem
+		line-height 1rem
+		color #787878
+	// 标题
+	.title
+		color black
+		font-size .9rem
+		padding .5rem 0
+	
+	// 评分位置设置
+	.mygrade
+		position absolute
+		right .5rem
+
+// 简介
+	.synopsis
+		height 2rem
+		transition all 3s
+	.synopsisHeight
+		height auto
+
+// 下拉电影介绍
+	.down
+		margin-top 0
+		width 100%
+		height 1.5rem
+		background-color white
+		text-align center
+		margin-bottom 1rem
+
+	// 演员介绍
+	.actors-box>p
+		margin .8rem 0
+		font-size .8rem
+// 演员照片
+	.actor-photos-box
+		overflow hidden
+		width 3.8rem
+		height 5rem
+// 演员姓名、职位
+	.actor-name-box
+		margin-top .5rem
+		text-align center
+
+	.actor-name-box>span,.photos>p>span
+		font-size .6rem
+		color #787878
+
+	// 剧照部分
+	.photos>p 
+		padding .7rem 0
+		line-height .5rem
+		font-size .7rem
+	.photos>p>span
+		position absolute
+		right 1rem
+	.photos-box
+		overflow hidden
+		height 5.5rem
+// 没有剧照
+	.photos-box-null
+		padding 0 0 2.2rem
+		text-align center
+		color #787878
+		font-size .75rem
+	// 购票
+	.purchase
+		height 2.5rem
+		text-align center
+		color white
+		background-color red
+		font-size .8rem
+	.purchase	span 
+		line-height 2.5rem
+// 电影简介下拉的icon   >
+#synopsisIcon>i  
+	color #787878 
+	font-size .5rem
+
+
+// 查看所有剧照的icon  >
+#stillsIcon
+	font-size .6rem

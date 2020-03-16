@@ -1,0 +1,69 @@
+// 头像和用户名部分
+.avatar
+  overflow hidden
+  position relative
+  height 9rem
+  background url(https://assets.maizuo.com/h5/v5/public/app/img/bg.6837f67.png) 
+  background-size 100% 100%
+// 头像
+.avatar-box
+  position relative
+  top 50%
+  left 1.5rem
+  height 3.3rem
+  transform translateY(-50%)
+  display flex
+  
+.avatar-img
+  overflow hidden
+  width 3.3rem
+  height 3.3rem
+  border-radius 50%
+  border white solid .1rem
+  img  
+    width 100%
+// 用户名
+.avatar-name
+  position relative
+  top 50%
+  left 1rem
+  transform translateY(-50%)
+  width 10rem
+  height 1rem
+  color white
+  font-size .8rem
+
+// 订单部分
+.order
+  ul 
+    display flex
+    justify-content space-around
+    li  
+      padding-top .4rem
+      width 4rem
+      height 3rem
+      text-align center
+      i  
+        font-size 1.5rem
+      p  
+        font-size .65rem
+        color #787878
+
+// 卖座券...
+.card
+  margin-top .5rem
+  li  
+    position relative
+    padding .7rem
+    font-size .7rem
+    i  
+      font-size 1.1rem
+      margin-right .5rem
+    // 向右的icon
+    .right-icon
+      // text-align right
+      position absolute
+      top 1rem
+      right .2rem
+      font-size .1rem
+      color #787878

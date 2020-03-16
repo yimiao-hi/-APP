@@ -1,0 +1,34 @@
+// 电影院名
+.cp-name
+  text-align center
+  font-size .85rem
+// 服务列表
+ul>li  
+  margin-right .5rem
+.cp-ul
+  margin-top 1rem
+  font-size .55rem
+  display flex
+  justify-content center
+#cp-serve-icon  
+  vertical-align .2rem
+  font-size .1rem
+// 橙色边框
+.cp-border
+  padding 0 .2rem
+  border 1px #FF8800 solid 
+// 地址
+// 地址最外面盒子
+.cp-address-box
+  padding 1rem 0 .5rem 2.5rem
+// 地址中的iconfont
+#cp-address-icon
+  margin 0 auto
+  vertical-align .2rem
+  font-size 1rem
+// 详细地址
+.cp-address
+  display inline-block
+  line-height 1rem
+  width 12rem
+  font-size .7rem
