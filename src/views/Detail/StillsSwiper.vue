@@ -3,11 +3,10 @@
 	v-show="this.$store.getters.StillsSwiperInfo"
   class="stills-Swiper">
 			<!-- 头部 -->
-			<div
-      class="back"
-      @click="showStillsSwiper()">
+      <div @click="showStillsSwiper()"
+      class="ss-back">
         X
-			</div>
+      </div>
 			<!-- 轮播图 -->
         <mt-swipe :auto="0">
           <mt-swipe-item  
@@ -40,6 +39,7 @@ export default {
    showStillsSwiper(){
       // 改变StillsSwiper
       this.$store.commit("StillsSwiperMutation")
+      console.log(123)
    }
  }
 }
